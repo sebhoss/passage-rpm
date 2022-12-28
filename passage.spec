@@ -29,9 +29,6 @@ make DESTDIR=%{buildroot} PREFIX=%{_prefix} \
      MANDIR=%{_mandir} WITH_ALLCOMP="yes" \
      install
 
-%check
-make test
-
 %files
 %doc README COPYING
 %{_bindir}/passage
