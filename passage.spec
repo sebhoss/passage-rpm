@@ -1,6 +1,6 @@
 Name:           passage
 Summary:        A password manager using age
-Version:        1.7.4
+Version:        1.7.4a1
 Release:        1%{?dist}
 License:        GPLv2+
 Url:            https://github.com/FiloSottile/passage
@@ -42,5 +42,5 @@ make test
 %dir %{_prefix}/lib/passage/extensions
 
 %changelog
-* Sun Jan 1 2023 Sebastian Hoß <seb@xn--ho-hia.de> - 1.7.4-1
+* Sun Jan 1 2023 Sebastian Hoß <seb@xn--ho-hia.de> - 1.7.4a1-1
 - Initial import
