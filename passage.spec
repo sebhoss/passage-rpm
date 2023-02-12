@@ -42,5 +42,4 @@ make DESTDIR=%{buildroot} PREFIX=%{_prefix} \
 %dir %{_prefix}/lib/passage/extensions
 
 %changelog
-* Sun Jan 1 2023 Sebastian Hoß <seb@xn--ho-hia.de> - 1.7.4a1-1
-- Initial import
+%autochangelog
