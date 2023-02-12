@@ -4,7 +4,7 @@
 Name:           passage
 Summary:        A password manager using age
 Version:        1.7.4a1
-Release:        1%{?dist}
+Release:        %autorelease
 License:        GPLv2+
 Url:            https://github.com/FiloSottile/passage
 BuildArch:      noarch
