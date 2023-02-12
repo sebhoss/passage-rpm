@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: The passage-rpm Authors
+# SPDX-License-Identifier: 0BSD
+
 Name:           passage
 Summary:        A password manager using age
 Version:        1.7.4a1
