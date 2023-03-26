@@ -12,8 +12,8 @@ Source:         https://github.com/FiloSottile/passage/archive/refs/tags/1.7.4a1
 
 BuildRequires:  make
 BuildRequires:  git-core
-Requires:       (wl-clipboard if libwayland-client else xclip)
-Requires:       (xclip if xorg-x11-server-Xorg else wl-clipboard)
+Recommends:     (wl-clipboard if libwayland-client else xclip)
+Recommends:     (xclip if xorg-x11-server-Xorg else wl-clipboard)
 Requires:       git-core
 Requires:       age
 Requires:       qrencode
