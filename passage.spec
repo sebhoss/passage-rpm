@@ -4,7 +4,7 @@
 Name:           passage
 Summary:        A password manager using age
 Version:        1.7.4a1
-Release:        %autorelease
+Release:        2%{?dist}
 License:        GPLv2+
 Url:            https://github.com/FiloSottile/passage
 BuildArch:      noarch
@@ -42,4 +42,6 @@ make DESTDIR=%{buildroot} PREFIX=%{_prefix} \
 %dir %{_prefix}/lib/passage/extensions
 
 %changelog
-%autochangelog
+* Sun Mar 26 2023 Sebastian Hoß <seb@xn--ho-hia.de> - 1.7.4-2
+- Replace autorelease and autochangelog macros
+
